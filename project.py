@@ -1,13 +1,13 @@
+from ColabTurtlePlus.Turtle import *
+import numpy as np
+  
+from emily import draw_emily_tile
+from cream import draw_cream_tile
+from adamya import draw_adamya_tile
+from dafu import draw_dafu_tile
+
 def Create_Poster():
   
-  from ColabTurtlePlus.Turtle import *
-  import numpy as np
-  
-  from emily import draw_emily_tile
-  from cream import draw_cream_tile
-  from adamya import draw_adamya_tile
-  from dafu import draw_dafu_tile
-
   from palette import palette_options, palette_names
 
   tile_functions = [draw_adamya_tile, draw_dafu_tile, draw_cream_tile, draw_emily_tile]
