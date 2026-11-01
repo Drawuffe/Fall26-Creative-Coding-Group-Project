@@ -1,6 +1,8 @@
 def Create_Poster():
   
-
+  from ColabTurtlePlus.Turtle import *
+  import numpy as np
+  
   from emily import draw_emily_tile
   from cream import draw_cream_tile
   from adamya import draw_adamya_tile
