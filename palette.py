@@ -1,9 +1,8 @@
 palette_options = {}
 #color palette for random
 import numpy as np
-import random
 def random_rgb():
-    return (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+    return (np.random.randint(0, 255), np.random.randint(0, 255), np.random.randint(0, 255))
 random_palette = {
     "bg": random_rgb(),
     "primary": random_rgb(),
