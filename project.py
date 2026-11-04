@@ -5,7 +5,7 @@ from emily import draw_emily_tile
 from cream import draw_cream_tile
 from adamya import draw_adamya_tile
 from dafu import draw_dafu_tile
-from palette import palette_options, palette_names
+from palette_file import palette_options, palette_names
 
 def Create_Poster():
   
