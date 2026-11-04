@@ -1,17 +1,39 @@
 palette_options = {}
 #color palette for random
 import numpy as np
-def random_rgb():
-    return (np.random.randint(0, 255), np.random.randint(0, 255), np.random.randint(0, 255))
-random_palette = {
-    "bg": random_rgb(),
-    "primary": random_rgb(),
-    "secondary": random_rgb(),
-    "accent": random_rgb()
-}
 
-for role, color in random_palette.items():
-    print(f"{role}: {color}")
+
+def random_rgb():
+    return (
+        np.random.randint(0, 255),
+        np.random.randint(0, 255),
+        np.random.randint(0, 255),
+    )
+
+
+def make_random_palette():
+    return {
+        "bg": random_rgb(),
+        "primary": random_rgb(),
+        "secondary": random_rgb(),
+        "accent": random_rgb(),
+    }
+
+
+class _PaletteDict(dict):
+
+    def __getitem__(self, key):
+        if key == "random":
+            return make_random_palette()
+        return super().__getitem__(key)
+
+    def get(self, key, default=None):
+        if key == "random":
+            return make_random_palette()
+        return super().get(key, default)
+
+
+palette_options = _PaletteDict()
 
 palette_options["random"] = random_palette
 
