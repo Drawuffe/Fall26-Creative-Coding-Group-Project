@@ -35,7 +35,7 @@ class _PaletteDict(dict):
 
 palette_options = _PaletteDict()
 
-palette_options["random"] = random_palette
+palette_options["random"] = None
 
 # Color palette for person 1 here-Adamya
 adamya_palette = {
