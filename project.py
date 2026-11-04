@@ -67,8 +67,19 @@ def Create_Poster():
 
   t.penup()
 
-
-  size = 50
+  if ncols == 3:
+    size = 133
+  elif ncols == 4:
+    size = 100
+  elif ncols == 5:
+    size = 80
+  elif ncols == 6:
+    size = 67
+  elif ncols == 7:
+    size = 57
+  else:
+    size = 50
+    
   y_offset = (nrows - 1) * size / 2
   x_offset = -(ncols - 1) * size / 2
 
