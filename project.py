@@ -67,13 +67,13 @@ def Create_Poster():
 
   t.penup()
 
-  if ncols == 3:
+  if ncols == 3 and nrows < 5:
     size = 133
-  elif ncols == 4:
+  elif ncols == 4 and nrows < 6:
     size = 100
-  elif ncols == 5:
+  elif ncols == 5 and nrows < 7:
     size = 80
-  elif ncols == 6:
+  elif ncols == 6 and nrows < 8:
     size = 67
   elif ncols == 7:
     size = 57
