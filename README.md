@@ -1,6 +1,6 @@
 # [Generative Poster Group project]
 
-![Example final poster](PosterExample.png)
+![Example final poster](ExampleImage.png)
 
 **Created by:** Adamya, Dafu, Cream, and Emily  
 **Course:** Creative Coding, Pratt Institute  
