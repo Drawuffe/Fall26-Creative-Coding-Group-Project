@@ -12,14 +12,14 @@
 
 ## The Interface
 
-What can the users modify?
+The user can input their de
 
 ## Meet the Designers
 
-- **[Student 1]:** [Brief description of their tile designs or contribution.]
-- **[Student 2]:** [Brief description of their tile designs or contribution.]
-- **[Student 3]:** [Brief description of their tile designs or contribution.]
-- **[Student 4]:** [Brief description of their tile designs or contribution.]
+- **Cream:** [Brief description of their tile designs or contribution.]
+- **Emily:** [Brief description of their tile designs or contribution.]
+- **Adamya:** [Brief description of their tile designs or contribution.]
+- **Dafu:** [Brief description of their tile designs or contribution.]
 
 ## Try it yourself
 
@@ -48,9 +48,9 @@ Or click below to open an example notebook in Google Colab and generate your own
 
 - `project.py` – Main poster-generation program.
 - `emily.py` – Collection of Emily's custom tile-drawing functions.
-- `cream.py` – Collection of Emily's custom tile-drawing functions.
-- `adamya.py` – Collection of Emily's custom tile-drawing functions.
-- `dafu.py` – Collection of Emily's custom tile-drawing functions.
+- `cream.py` – Collection of Cream's custom tile-drawing functions.
+- `adamya.py` – Collection of Adamya's custom tile-drawing functions.
+- `dafu.py` – Collection of Dafu's custom tile-drawing functions.
 - `palette.py` – Available color palettes.
 - `requirements.txt` – Required Python libraries.
 - `example_poster.svg` – Scalable vector version of an example final poster image.
