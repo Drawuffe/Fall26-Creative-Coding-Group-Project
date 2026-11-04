@@ -108,13 +108,13 @@ def Create_Poster():
       else:
         tile_type = 'center'
         random_number = random.randint(1, 4)
-        if random_number == 1
+        if random_number == 1:
           rotation = 0
-        elif random_number == 2
+        elif random_number == 2:
           rotation = 90
-        elif random_number == 3
+        elif random_number == 3:
           rotation = 180
-        else 
+        else:
           rotation = 270
         
         
