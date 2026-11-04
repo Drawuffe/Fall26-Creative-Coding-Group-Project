@@ -17,7 +17,7 @@ The user can input their title for the poster, the scale of the poster through t
 ## Meet the Designers
 
 - **Cream:** [Brief description of their tile designs or contribution.]
-- **Emily:** Worked on organizing the project into Github as separate modules and tiles rotation.
+- **Emily:** Worked on organizing the project into Github as separate modules, tiles rotation, and tiles sizing.
 - **Adamya:** [Brief description of their tile designs or contribution.]
 - **Dafu:** [Brief description of their tile designs or contribution.]
 
