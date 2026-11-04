@@ -35,7 +35,7 @@ def Create_Poster():
   else:
     palette = palette_options[p_name]
 
-  rotation_numbers = [0, 90, 180, 270]
+  
   
 
   # print(palette)
@@ -105,8 +105,7 @@ def Create_Poster():
     #Center tiles
       else:
         tile_type = 'center'
-        random_rotation = np.random.choice(rotation_numbers)
-        rotation = random_rotation
+        
 
       F(t, x, y, size, rotation, palette, tile_type)
 
