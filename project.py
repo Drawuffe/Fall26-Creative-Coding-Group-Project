@@ -107,7 +107,7 @@ def Create_Poster():
     #Center tiles
       else:
         tile_type = 'center'
-        random_number = random.randint(1, 4)
+        np.random_number = random.randint(1, 4)
         if random_number == 1:
           rotation = 0
         elif random_number == 2:
