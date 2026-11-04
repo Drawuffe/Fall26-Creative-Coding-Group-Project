@@ -14,6 +14,10 @@
 
 The user can input their title for the poster, the scale of the poster through tiles, and the color palette they want for their poster.
 
+After collecting this information, it puts those values into the function that runs the poster generation.
+
+To generate the poster it runs through a loop that places the tiles next to each other according to the user input. 
+
 ## Meet the Designers
 
 - **Cream:** [Brief description of their tile designs or contribution.]
