@@ -95,7 +95,7 @@ def Create_Poster():
       else:
         tile_type = 'center'
 
-      F(t, x, y, size, rotation, palette, tile_type)
+      F(t, x, y, size, rotation, p_name, tile_type)
 
   # Write the title and credits
   t.jumpto(0, 300)
