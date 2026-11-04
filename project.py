@@ -35,6 +35,8 @@ def Create_Poster():
   else:
     palette = palette_options[p_name]
 
+  print(palette)
+
   print(f"You have selected the {p_name} palette.")
 
   print("Ready to create poster...")
