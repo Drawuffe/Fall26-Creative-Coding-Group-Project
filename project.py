@@ -13,6 +13,12 @@ def Create_Poster():
   tile_functions = [draw_adamya_tile, draw_dafu_tile, draw_cream_tile, draw_emily_tile]
   Title_text = input("Enter a title for your poster: ")
 
+  if p_name == "random":
+    palette = palette_options[palette_names[0]]
+  else:
+    palette = palette_options[p_name]
+
+  
   nrows = int(input("Grid height: "))
   while nrows < 3 or nrows > 8:
     print("Should be between 3 and 8.")
@@ -95,7 +101,7 @@ def Create_Poster():
       else:
         tile_type = 'center'
 
-      F(t, x, y, size, rotation, p_name, tile_type)
+      F(t, x, y, size, rotation, palette, tile_type)
 
   # Write the title and credits
   t.jumpto(0, 300)
