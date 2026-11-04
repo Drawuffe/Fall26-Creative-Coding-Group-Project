@@ -13,11 +13,6 @@ def Create_Poster():
   tile_functions = [draw_adamya_tile, draw_dafu_tile, draw_cream_tile, draw_emily_tile]
   Title_text = input("Enter a title for your poster: ")
 
-  if p_name == "random":
-    palette = palette_options[palette_names[0]]
-  else:
-    palette = palette_options[p_name]
-
   
   nrows = int(input("Grid height: "))
   while nrows < 3 or nrows > 8:
@@ -34,6 +29,11 @@ def Create_Poster():
   while p_name not in palette_names:
     print(f"Invalid palette name. The valid names are {palette_names}.")
     p_name = input("Enter the name of the color palette you wish to use: ").lower()
+
+  if p_name == "random":
+    palette = palette_options[palette_names[0]]
+  else:
+    palette = palette_options[p_name]
 
   print(f"You have selected the {p_name} palette.")
 
