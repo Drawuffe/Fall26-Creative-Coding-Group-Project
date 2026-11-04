@@ -31,20 +31,6 @@ def Create_Poster():
 
   print(f"You have selected the {p_name} palette.")
 
-  rotation = input("Enter the rotation of the poster (0, 90, 180, 270, or random): ")
-  while rotation not in ["0", "90", "180", "270", "random"]:
-    print("Invalid rotation. Should be 0, 90, 180, 270, or random.")
-
-  if p_name == "random":
-    palette = palette_options[palette_names[0]]
-  else:
-    palette = palette_options[p_name]
-
-  if rotation == "random":
-    rotation = np.random.randint(4) * 90
-  else:
-    rotation = int(rotation)
-
   print("Ready to create poster...")
 
   clearscreen()
