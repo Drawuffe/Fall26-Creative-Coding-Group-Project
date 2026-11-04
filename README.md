@@ -12,7 +12,7 @@
 
 ## The Interface
 
-The user can input their de
+The user can input their title for the poster, the scale of the poster through tiles, and the color palette they want for their poster.
 
 ## Meet the Designers
 
